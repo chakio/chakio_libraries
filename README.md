@@ -20,13 +20,13 @@
 
 ## [cpp_ros_util.cpp](https://github.com/chakio/chakio_utils/blob/master/cpp/cpp_ros_util.cpp)
 * [tf::Quaternion rpy2tfQuat(double roll, double pitch, double yaw)](https://github.com/chakio/chakio_utils/blob/3dcbb9adb8ef446b91b54135fe35f792b0b4fe8b/cpp/cpp_ros_util.cpp#L1-L11)
-    * ロール、ピッチ、ヨー角からtf::quatanionへの変換
+    * ロール、ピッチ、ヨー角からtf::Quatanionへの変換
 * [geometry_msgs::Quaternion rpy2geometryQuat(double roll, double pitch, double yaw)](https://github.com/chakio/chakio_utils/blob/3dcbb9adb8ef446b91b54135fe35f792b0b4fe8b/cpp/cpp_ros_util.cpp#L12-L25)
-    * ロール、ピッチ、ヨー角からgeometry_msgs::quatanionへの変換
+    * ロール、ピッチ、ヨー角からgeometry_msgs::Quatanionへの変換
 * [void tfQuat2rpy(tf::Quaternion quat,double& roll, double& pitch, double& yaw)](https://github.com/chakio/chakio_utils/blob/3dcbb9adb8ef446b91b54135fe35f792b0b4fe8b/cpp/cpp_ros_util.cpp#L26-L37)
-    * tf::quatanionからロール、ピッチ、ヨー角への変換
+    * tf::Quatanionからロール、ピッチ、ヨー角への変換
 * [void geometryQuat2rpy(geometry_msgs::Quaternion geometry_quat, double& roll, double& pitch, double& yaw)](https://github.com/chakio/chakio_utils/blob/3dcbb9adb8ef446b91b54135fe35f792b0b4fe8b/cpp/cpp_ros_util.cpp#L38-L50)
-    * geometry_msgs::quatanionからロール、ピッチ、ヨー角への変換
+    * geometry_msgs::Quatanionからロール、ピッチ、ヨー角への変換
 * [geometry_msgs::Pose pose2D2pose(geometry_msgs::Pose2D pose2D)](https://github.com/chakio/chakio_utils/blob/3dcbb9adb8ef446b91b54135fe35f792b0b4fe8b/cpp/cpp_ros_util.cpp#L51-L72)
     * geometry_msgs::Pose2Dからgeometry_msgs::Poseへの変換
 * [geometry_msgs::Pose2D pose2pose2D(geometry_msgs::Pose pose)](https://github.com/chakio/chakio_utils/blob/3dcbb9adb8ef446b91b54135fe35f792b0b4fe8b/cpp/cpp_ros_util.cpp#L73-L94)
