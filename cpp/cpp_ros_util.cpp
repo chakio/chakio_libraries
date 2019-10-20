@@ -92,12 +92,6 @@ geometry_msgs::Pose2D pose2pose2D(geometry_msgs::Pose pose)
 
     return outputPose2D;
 }
-//--------------------------------------------------------------
-/**
-* getNewTrackedObjects
-* argument:  std::array<geometry_msgs::PoseArray,4> _untrackedObjects
-* return: none
-*/
 
 //--------------------------------------------------------------
 /**
