@@ -11,19 +11,28 @@
 * python_ros_lib.py:rosのソースコードをpythonで書く際に役立つ関数群
 
 ## [cpp_lib.cpp](https://github.com/chakio/chakio_libraries/blob/master/cpp/cpp_lib.cpp)
- ### aa
+* double getAverageAngle(vector<double> radAngles)
+    * 角度の平均値を求める
+* double getLimitedAngle2PI(double angle)
+    * 角度を0~2PIに収める
+* double getLimitedAnglePI2PI(double limitedAngle2PI)
+    * 角度を-PI~PIに収める
 
 ## [cpp_ros_lib.cpp](https://github.com/chakio/chakio_libraries/blob/master/cpp/cpp_ros_lib.cpp)
- ### aa
+* geometry_msgs::Pose pose2D2pose(geometry_msgs::Pose2D pose2D)
+* geometry_msgs::Pose2D pose2pose2D(geometry_msgs::Pose pose)
+* geometry_msgs::quaternion rpy2quaternion(geometry_msgs::Vector3 rpy)
+* geometry_msgs::quaternion rpy2quaternion(double roll, double pitch, double yaw)
+* void getRosParam()
 
 ## [cpp_of_lib.cpp](https://github.com/chakio/chakio_libraries/blob/master/cpp/cpp_of_lib.cpp)
- ### aa
+* aa
 
 ## [python_lib.py](https://github.com/chakio/chakio_libraries/blob/master/python/python_lib.py)
- ### aa
+* aa
 
 ## [python_ros_lib.py](https://github.com/chakio/chakio_libraries/blob/master/python/python_ros_lib.py)
- ### aa
+* aa
 
 
 ## Lisence
